@@ -2,8 +2,6 @@
 
 Aplicativo de lista de tarefas com autenticação de usuários, desenvolvido com React (Frontend) e Node.js/Express/MongoDB (Backend).
 
-![Preview da Aplicação](./screenshot.png)
-
 ## Funcionalidades
 
 - ✅ Cadastro de usuários (username, email e senha)
