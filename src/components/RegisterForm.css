@@ -1,0 +1,92 @@
+/* Container principal */
+.register-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #f3f4f6;
+  padding: 1rem;
+}
+
+/* Container do formulário */
+.form-container {
+  width: 100%;
+  max-width: 350px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+/* Título do formulário */
+.form-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Campos de entrada */
+input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* Botão de cadastro principal */
+.register-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #22c55e; /* Verde */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 0.5rem;
+  text-decoration: none; /* Remove sublinhado */
+  box-shadow: 0 2px 8px rgba(34, 197, 94, 0.08);
+}
+
+.register-button:hover,
+.register-button:focus {
+  background-color: #16a34a; /* Verde mais escuro */
+}
+
+/* Container do link de login */
+.login-link {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Botão/link de login */
+.login-redirect-button {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: inherit;
+  text-decoration: underline;
+  margin-left: 0.25rem;
+  padding: 0;
+}
+
+.login-redirect-button:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
